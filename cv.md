@@ -35,5 +35,9 @@ At the moment I started learning ***React***;
 
 ***
 
+**Experience:** Took part in the development of a WordPress site [sobi.store](https://sobi.store/);
 
+**Education:** Graduated from the Energy Faculty of the BNTU with a degree in automation engineer. I studied Front-end at Step Computer Academy, but the group broke up;
+
+**English:** A1.
 
