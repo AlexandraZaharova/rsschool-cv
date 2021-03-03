@@ -18,5 +18,22 @@
 
 ****Git***
 
-At the moment I started learning ***React***.
+At the moment I started learning ***React***;
+
+***
+
+**Sample code:**
+
+*In one line:* `<h1>Hello world</h1>`;
+
+*Code block:* 
+
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+    </ul>
+
+***
+
+
 
