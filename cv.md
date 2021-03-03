@@ -3,3 +3,20 @@
 **email:** Zakharova911@gmail.com;
 
 **telegram:** @Lavkachudes;
+
+***
+
+**About myself:** I am persistent, smart, purposeful. I have experience in energy and sales. The next goal in life is to get a job as a programmer and develop in this area;
+
+**My skills:** I have knowledge and little experience in:
+
+****HTML***
+
+****CSS***
+
+****JavaScript***
+
+****Git***
+
+At the moment I started learning ***React***.
+
