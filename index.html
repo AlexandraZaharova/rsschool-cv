@@ -9,39 +9,67 @@
   <title>CV</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Aleksandra Zaharova 19.09.1992</h1>
-    <img src="foto.jpg" alt="my_photo" width="250">
-    <p><b>email:</b>zakharova911@gmail.com</p>
-    <p><b>telegram</b>@Lavkachudes</p>
-    <hr>
-    <p><b>About myself:</b>I am persistent, smart, purposeful. I have experience in energy and sales.
-      The next goal in life is to get a job as a programmer and develop in this area.</p>
-    <p><b>My skills:</b>I have knowledge and little experience in:</p>
-    <ul>
-      <li><b><i>HTML</i></b></li>
-      <li><b><i>CSS</i></b></li>
-      <li><b><i>JavaScript</i></b></li>
-      <li><b><i>Git</i></b></li>
-    </ul>
-    <p>At the moment I started learning <b><i>React</i></b>.</p>
-    <hr>
-    <p><b>Sample code:</b></p>
-    <p><i>In one line:</i></p>
-    <code>&lt;h1&gt;Hello world&lt;/h1&gt;</code>
-    <br>
-    <p><i>Code block:</i></p>
-    <pre>
+  <main>
+    <div class="about">
+      <section class="info">
+        <figure>
+          <img src="foto.jpg" alt="my_photo" width="300">
+        </figure>
+        <h2>Contacts:</h2>
+        <ul class="contacts">
+          <li><p><b>email:</b>zakharova911@gmail.com</p></li>
+          <li><p><b>telegram</b>@Lavkachudes</p></li>
+        </ul>
+      </section>
+      <div class="about-skills">
+        <h1>Aleksandra Zaharova</h1>
+        <section class="skills">
+          <h2>About myself:</h2>
+          <p>I am persistent, smart, purposeful. I have experience in energy and sales.
+            The next goal in life is to get a job as a programmer and develop in this area.</p>
+          <h2>My skills:</h2>
+          <p>I have knowledge and little experience in:</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+          </ul>
+          <p>At the moment I started learning React.</p>
+        </section>
+      </div>
+    </div>
+      <hr>
+      <section class="code">
+        <h2>Sample code:</h2>
+        <p><i>In one line:</i></p>
+        <code>&lt;h1&gt;Hello world&lt;/h1&gt;</code>
+        <br>
+        <p><i>Code block:</i></p>
+        <pre>
       &lt;ul&gt;
         &lt;li&gt;Item1&lt;/li&gt;
         &lt;li&gt;Item2&lt;/li&gt;
       &lt;/ul&gt;
     </pre>
-    <hr>
-    <p><b>Experience:</b>Took part in the development of a WordPress site [sobi.store](https://sobi.store/)</p>
-    <p><b>Education:</b>Graduated from the Energy Faculty of the BNTU with a degree in automation engineer.
-      I studied Front-end at Step Computer Academy, but the group broke up</p>
-    <p><b>English:</b>A1</p>
-  </div>
+      </section>
+      <hr>
+      <section class="experience">
+        <h2>Experience:</h2>
+        <p>Took part in the development of a WordPress site <a href="https://sobi.store/">sobi.store</a>.</p>
+        <h2>Education:</h2>
+        <p>Graduated from the Energy Faculty of the BNTU with a degree in automation engineer.
+          I studied Front-end at Step Computer Academy, but the group broke up.</p>
+        <p>English: A1.</p>
+      </section>
+  </main>
+  <footer>
+    <p>
+      © <time>2021</time> <a class="footer-link" href="https://github.com/AlexandraZaharova">github.com/AlexandraZaharova</a>
+    </p>
+    <a href="https://rs.school/js/">
+      <img src="rs_school_js.svg" alt="RS_School" width="160">
+    </a>
+  </footer>
 </body>
 </html>
