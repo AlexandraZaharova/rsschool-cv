@@ -1,0 +1,78 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+main {
+    width: 86%;
+    margin: 30px auto 50px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 40%;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.skills {
+    margin-bottom: 70px;
+}
+
+figure {
+    margin: 0;
+}
+
+p,
+i {
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    color: #016F70;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: #D469BD;
+    background-color: #016F70;
+}
+
+.footer-link {
+    color: #D469BD;
+}
